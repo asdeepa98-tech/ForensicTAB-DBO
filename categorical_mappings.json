@@ -1,0 +1,100 @@
+{
+  "feature_order": [
+    "Device Make",
+    "Device Model",
+    "OS Type",
+    "OS Version",
+    "Extraction Tool",
+    "Tool Version",
+    "Extraction Method"
+  ],
+  "label_order": [
+    "WhatsApp Chats",
+    "SMS Messages",
+    "Call Logs",
+    "Contacts",
+    "Media Files",
+    "Browser History"
+  ],
+  "unknown_index": 0,
+  "vocabularies": {
+    "Device Make": {
+      "Apple": 1,
+      "Huawei": 2,
+      "Lenovo": 3,
+      "Motorola": 4,
+      "Nokia": 5,
+      "Oppo": 6,
+      "Others": 7,
+      "Samsung": 8,
+      "Vivo": 9,
+      "Xiaomi": 10
+    },
+    "Device Model": {
+      "105": 1,
+      "A6000": 2,
+      "A78": 3,
+      "Asha 200": 4,
+      "C20": 5,
+      "Coolpad Ultra": 6,
+      "F19": 7,
+      "Galaxy A54": 8,
+      "Galaxy S23": 9,
+      "K10": 10,
+      "Lava Blaze": 11,
+      "Mi 11": 12,
+      "Moto G32": 13,
+      "Moto G54": 14,
+      "Nova 9": 15,
+      "P30": 16,
+      "Poco X5": 17,
+      "Realme 9": 18,
+      "Redmi Note 12": 19,
+      "Reno 8": 20,
+      "SM-G530H": 21,
+      "V25": 22,
+      "V27": 23,
+      "Y21": 24,
+      "iPhone 12": 25,
+      "iPhone 13": 26,
+      "iPhone 14": 27
+    },
+    "OS Type": {
+      "Android": 1,
+      "Feature Phone": 2,
+      "iOS": 3
+    },
+    "OS Version": {
+      "10.0": 1,
+      "11.0": 2,
+      "12.0": 3,
+      "13.0": 4,
+      "14.0": 5,
+      "15.0": 6,
+      "16.0": 7,
+      "17.0": 8,
+      "Unknown": 9
+    },
+    "Extraction Tool": {
+      "Belkasoft X": 1,
+      "Cellebrite UFED": 2,
+      "MSAB XRY": 3,
+      "Magnet AXIOM": 4,
+      "Oxygen Forensic Detective": 5
+    },
+    "Tool Version": {
+      "10.4": 1,
+      "16.5": 2,
+      "5.1": 3,
+      "7.68": 4,
+      "8.2": 5
+    },
+    "Extraction Method": {
+      "Advanced Logical": 1,
+      "File System": 2,
+      "Logical": 3,
+      "Physical": 4,
+      "Physical Bootloader/ADB": 5
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "split_method": "skmultilearn iterative stratification",
+  "seed": 42,
+  "n_total": 1500,
+  "n_train": 1048,
+  "n_val": 226,
+  "n_test": 226,
+  "note": "indices are positions in the de-duplicated table; splits/raw_row_id.npy maps them to raw-file rows"
+}

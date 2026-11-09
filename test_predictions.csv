@@ -1,0 +1,227 @@
+Test_Position,Dataset_Row_Index_Zero_Based,Sl No,Device ID,Device Make,Model,OS Type,OS Version,Extraction Tool,Tool Version,Extraction Method,Recovered Artifacts,Remarks,WhatsApp Chats,SMS Messages,Call Logs,Contacts,Media Files,Browser History,Dataset_Actual_WhatsApp_Chats,Actual_WhatsApp_Chats,Predicted_WhatsApp_Chats,Dataset_Actual_SMS_Messages,Actual_SMS_Messages,Predicted_SMS_Messages,Dataset_Actual_Call_Logs,Actual_Call_Logs,Predicted_Call_Logs,Dataset_Actual_Contacts,Actual_Contacts,Predicted_Contacts,Dataset_Actual_Media_Files,Actual_Media_Files,Predicted_Media_Files,Dataset_Actual_Browser_History,Actual_Browser_History,Predicted_Browser_History
+1,1,2,D0002,Samsung,Galaxy S23,Android,11,MSAB XRY,10.4,Physical Bootloader/ADB,"Contacts, SMS, Call Logs, Media Files, Browser History",,0,1,1,1,1,1,0,0,0,1,1,1,1,1,1,1,1,1,1,0,0,1,0,0
+2,4,5,D0005,Others,Lava Blaze,Android,14,MSAB XRY,10.4,Logical,"Contacts, SMS, Call Logs, WhatsApp, Media Files, Browser History",,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,0,0
+3,7,8,D0008,Samsung,Galaxy S23,Android,10,Magnet AXIOM,8.2,Advanced Logical,"Contacts, Call Logs, Media Files",,0,0,1,1,1,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,0,1,1
+4,8,9,D0009,Motorola,Moto G32,Android,11,Magnet AXIOM,8.2,File System,"Contacts, SMS, Call Logs, WhatsApp, Browser History",,1,1,1,1,0,1,1,0,0,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1
+5,11,12,D0012,Oppo,Reno 8,Android,12,Cellebrite UFED,7.68,Physical,"Contacts, Call Logs, Media Files, Browser History",,0,0,1,1,1,1,0,0,0,0,1,1,1,1,1,1,0,0,1,1,1,1,0,0
+6,12,13,D0013,Xiaomi,Poco X5,Android,10,Magnet AXIOM,8.2,Physical Bootloader/ADB,"Contacts, SMS, Call Logs, WhatsApp",,1,1,1,1,0,0,1,0,0,1,1,1,1,0,0,1,1,1,0,1,1,0,1,1
+7,15,16,D0016,Lenovo,A6000,Android,11,Belkasoft X,5.1,File System,"Contacts, SMS, Call Logs, WhatsApp, Browser History",,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1
+8,17,18,D0018,Samsung,Galaxy A54,Android,10,Belkasoft X,5.1,File System,"Contacts, SMS, Call Logs",,0,1,1,1,0,0,0,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0
+9,19,20,D0020,Apple,iPhone 13,iOS,16,Magnet AXIOM,8.2,Logical,"Contacts, SMS, Call Logs, WhatsApp, Media Files, Browser History",,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1
+10,21,22,D0022,Motorola,Moto G32,Android,13,MSAB XRY,10.4,Advanced Logical,"Contacts, SMS, Call Logs, WhatsApp",,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,0,0,0,1,1,0,0,0
+11,23,24,D0024,Samsung,SM-G530H,Android,13,Belkasoft X,5.1,Physical Bootloader/ADB,"Contacts, SMS, WhatsApp, Media Files",,1,1,0,1,1,0,1,0,0,1,1,1,0,0,0,1,1,1,1,1,1,0,1,1
+12,24,25,D0025,Vivo,Y21,Android,10,Belkasoft X,5.1,File System,"Contacts, SMS, Call Logs, WhatsApp, Media Files, Browser History",,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+13,26,27,D0027,Huawei,P30,Android,10,Belkasoft X,5.1,File System,"Contacts, SMS, Call Logs, WhatsApp, Media Files, Browser History",,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+14,27,28,D0028,Huawei,Nova 9,Android,14,Belkasoft X,5.1,Logical,"Contacts, Call Logs, WhatsApp, Browser History",,1,0,1,1,0,1,1,0,0,0,1,1,1,1,1,1,1,1,0,1,1,1,1,1
+15,29,30,D0030,Oppo,A78,Android,10,Oxygen Forensic Detective,16.5,Physical,"Contacts, SMS, Call Logs, Media Files, Browser History",,0,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+16,33,34,D0034,Vivo,Y21,Android,11,Cellebrite UFED,7.68,Advanced Logical,"Contacts, SMS, Call Logs, Media Files, Browser History",,0,1,1,1,1,1,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0
+17,34,35,D0035,Vivo,V27,Android,10,MSAB XRY,10.4,Advanced Logical,"Contacts, Call Logs, WhatsApp, Media Files, Browser History",,1,0,1,1,1,1,1,0,0,0,1,1,1,0,0,1,1,1,1,1,1,1,1,1
+18,36,37,D0037,Nokia,Asha 200,Feature Phone,,Belkasoft X,5.1,Physical Bootloader/ADB,"Contacts, SMS, Media Files, Browser History",,0,1,0,1,1,1,0,1,1,1,0,1,0,1,1,1,1,1,1,0,0,1,0,0
+19,39,40,D0040,Xiaomi,Poco X5,Android,14,Magnet AXIOM,8.2,Advanced Logical,"Contacts, SMS, Call Logs, WhatsApp, Media Files",,1,1,1,1,1,0,1,0,0,1,1,1,1,0,0,1,0,0,1,1,1,0,1,1
+20,40,41,D0041,Huawei,Nova 9,Android,13,MSAB XRY,10.4,Physical Bootloader/ADB,"Contacts, WhatsApp, Media Files",,1,0,0,1,1,0,1,0,0,0,1,1,0,1,1,1,1,1,1,1,1,0,1,1
+21,42,43,D0043,Apple,iPhone 14,iOS,16,Belkasoft X,5.1,File System,"Contacts, SMS, Call Logs, WhatsApp, Media Files",,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,1,1
+22,46,47,D0047,Lenovo,K10,Android,11,MSAB XRY,10.4,File System,"Contacts, SMS, Call Logs, WhatsApp, Media Files, Browser History",,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+23,48,49,D0049,Oppo,F19,Android,13,Belkasoft X,5.1,Physical Bootloader/ADB,"Contacts, SMS, WhatsApp, Media Files, Browser History",,1,1,0,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1
+24,51,52,D0052,Motorola,Moto G32,Android,10,Oxygen Forensic Detective,16.5,Logical,"Contacts, Call Logs, WhatsApp, Media Files",,1,0,1,1,1,0,1,1,1,0,1,1,1,1,1,1,0,0,1,1,1,0,0,0
+25,52,53,D0053,Samsung,Galaxy S23,Android,11,MSAB XRY,10.4,Logical,"Contacts, SMS, Call Logs, WhatsApp, Browser History",,1,1,1,1,0,1,1,1,1,1,0,0,1,1,1,1,1,1,0,1,1,1,1,1
+26,54,55,D0055,Oppo,Reno 8,Android,13,Oxygen Forensic Detective,16.5,File System,"Contacts, SMS, Call Logs, WhatsApp",,1,1,1,1,0,0,1,0,0,1,1,1,1,0,0,1,1,1,0,1,1,0,1,1
+27,56,57,D0057,Huawei,P30,Android,13,Magnet AXIOM,8.2,Advanced Logical,"Contacts, SMS, Call Logs, Media Files",,0,1,1,1,1,0,0,0,0,1,1,1,1,1,1,1,1,1,1,0,0,0,1,1
+28,59,60,D0060,Oppo,Reno 8,Android,10,Belkasoft X,5.1,File System,"Contacts, SMS, Call Logs",,0,1,1,1,0,0,0,1,1,1,1,1,1,1,1,1,1,1,0,1,1,0,1,1
+29,61,62,D0062,Motorola,Moto G32,Android,12,Oxygen Forensic Detective,16.5,Physical,"Contacts, SMS, Call Logs, WhatsApp",,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,0,0,0
+30,62,63,D0063,Xiaomi,Redmi Note 12,Android,11,Oxygen Forensic Detective,16.5,Physical,"Contacts, SMS, WhatsApp, Media Files, Browser History",,1,1,0,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,0,0,1,1,1
+31,64,65,D0065,Huawei,P30,Android,10,Belkasoft X,5.1,Physical,"Contacts, SMS, Call Logs, WhatsApp, Browser History",,1,1,1,1,0,1,1,0,0,1,0,0,1,1,1,1,1,1,0,0,0,1,1,1
+32,66,67,D0067,Apple,iPhone 12,iOS,16,Belkasoft X,5.1,Physical Bootloader/ADB,"Contacts, SMS, Call Logs, WhatsApp, Media Files",,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,1,1
+33,67,68,D0068,Motorola,Moto G32,Android,14,Belkasoft X,5.1,Logical,"Contacts, Call Logs, WhatsApp, Media Files",,1,0,1,1,1,0,1,0,0,0,1,1,1,0,0,1,1,1,1,1,1,0,1,1
+34,69,70,D0070,Oppo,Reno 8,Android,13,Cellebrite UFED,7.68,File System,"SMS, Call Logs, Browser History",,0,1,1,0,0,1,0,0,0,1,0,0,1,1,1,0,1,1,0,1,1,1,1,1
+35,71,72,D0072,Apple,iPhone 14,iOS,17,Magnet AXIOM,8.2,Advanced Logical,"SMS, Call Logs, WhatsApp, Media Files, Browser History",,1,1,1,0,1,1,1,0,0,1,1,1,1,1,1,0,1,1,1,0,0,1,0,0
+36,74,75,D0075,Apple,iPhone 14,iOS,16,Oxygen Forensic Detective,16.5,Physical,"Contacts, SMS, Call Logs, WhatsApp, Media Files",,1,1,1,1,1,0,1,0,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0
+37,76,77,D0077,Lenovo,A6000,Android,13,Cellebrite UFED,7.68,File System,"Contacts, SMS, Call Logs, WhatsApp, Media Files, Browser History",,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,0,0
+38,79,80,D0080,Motorola,Moto G32,Android,13,MSAB XRY,10.4,Advanced Logical,"Contacts, Call Logs, WhatsApp",,1,0,1,1,0,0,1,0,0,0,1,1,1,1,1,1,0,0,0,1,1,0,0,0
+39,80,81,D0081,Oppo,F19,Android,12,Belkasoft X,5.1,Physical,"Contacts, SMS, Call Logs, WhatsApp, Browser History",,1,1,1,1,0,1,1,0,0,1,1,1,1,0,0,1,1,1,0,0,0,1,1,1
+40,82,83,D0083,Vivo,V25,Android,13,MSAB XRY,10.4,Advanced Logical,"Contacts, SMS, Call Logs, Media Files",,0,1,1,1,1,0,0,1,1,1,0,0,1,1,1,1,1,1,1,1,1,0,0,0
+41,84,85,D0085,Samsung,SM-G530H,Android,11,Oxygen Forensic Detective,16.5,File System,"Contacts, SMS, Call Logs, WhatsApp, Media Files, Browser History",,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+42,85,86,D0086,Nokia,C20,Feature Phone,,Belkasoft X,5.1,Advanced Logical,"Call Logs, Media Files",,0,0,1,0,1,0,0,0,0,0,1,1,1,1,1,0,1,0,1,1,1,0,1,1
+43,87,88,D0088,Oppo,A78,Android,10,Magnet AXIOM,8.2,Logical,"Contacts, SMS, Call Logs, WhatsApp, Media Files",,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,0,0,1
+44,90,91,D0091,Motorola,Moto G32,Android,13,Magnet AXIOM,8.2,File System,"SMS, Call Logs, WhatsApp, Media Files, Browser History",,1,1,1,0,1,1,1,1,1,1,1,1,1,0,0,0,1,1,1,1,1,1,0,0
+45,92,93,D0093,Oppo,A78,Android,14,Magnet AXIOM,8.2,File System,"Contacts, SMS, Call Logs, Media Files",,0,1,1,1,1,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1
+46,94,95,D0095,Motorola,Moto G54,Android,11,MSAB XRY,10.4,Physical Bootloader/ADB,"Contacts, SMS, Call Logs, WhatsApp, Media Files",,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1
+47,98,99,D0099,Apple,iPhone 12,iOS,16,Magnet AXIOM,8.2,Advanced Logical,"Contacts, SMS, Call Logs, Media Files, Browser History",,0,1,1,1,1,1,0,0,0,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1
+48,99,100,D0100,Lenovo,K10,Android,13,Oxygen Forensic Detective,16.5,Physical,"Contacts, Call Logs, WhatsApp, Browser History",,1,0,1,1,0,1,1,0,0,0,1,1,1,1,1,1,1,1,0,0,1,1,1,0
+49,101,102,D0102,Nokia,105,Feature Phone,,Magnet AXIOM,8.2,Physical Bootloader/ADB,"Contacts, SMS, Call Logs, Media Files",,0,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0
+50,103,104,D0104,Lenovo,K10,Android,14,MSAB XRY,10.4,File System,"Contacts, Call Logs, WhatsApp, Browser History",,1,0,1,1,0,1,1,0,0,0,0,0,1,1,1,1,1,1,0,0,0,1,1,1
+51,105,106,D0106,Xiaomi,Mi 11,Android,10,MSAB XRY,10.4,Advanced Logical,"Contacts, SMS, Call Logs, Media Files, Browser History",,0,1,1,1,1,1,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+52,107,108,D0108,Apple,iPhone 14,iOS,17,Oxygen Forensic Detective,16.5,Logical,"Contacts, SMS, Call Logs, WhatsApp, Media Files",,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1
+53,109,110,D0110,Lenovo,K10,Android,13,Oxygen Forensic Detective,16.5,File System,"Contacts, SMS, Call Logs, Media Files, Browser History",,0,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,0,0
+54,112,113,D0113,Samsung,Galaxy A54,Android,14,Magnet AXIOM,8.2,Physical,"Contacts, SMS, Call Logs, WhatsApp, Browser History",,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1
+55,114,115,D0115,Lenovo,K10,Android,14,Magnet AXIOM,8.2,Logical,"Contacts, SMS, Call Logs, WhatsApp, Media Files",,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0
+56,115,116,D0116,Others,Realme 9,Android,13,Cellebrite UFED,7.68,File System,"Contacts, SMS, WhatsApp, Media Files, Browser History",,1,1,0,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1
+57,118,119,D0119,Others,Lava Blaze,Android,14,Magnet AXIOM,8.2,Logical,"Contacts, SMS, WhatsApp",,1,1,0,1,0,0,1,1,1,1,1,1,0,1,1,1,1,1,0,1,1,0,1,1
+58,119,120,D0120,Oppo,F19,Android,12,Cellebrite UFED,7.68,Logical,"Contacts, SMS, Call Logs, WhatsApp, Media Files",,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1
+59,121,122,D0122,Motorola,Moto G32,Android,12,Cellebrite UFED,7.68,Advanced Logical,"Contacts, Call Logs, WhatsApp",,1,0,1,1,0,0,1,0,0,0,1,1,1,1,1,1,1,1,0,0,0,0,1,1
+60,122,123,D0123,Apple,iPhone 14,iOS,15,MSAB XRY,10.4,Advanced Logical,"Contacts, SMS, Call Logs, WhatsApp, Media Files, Browser History",,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,0,0,1,0,0
+61,125,126,D0126,Huawei,Nova 9,Android,14,Belkasoft X,5.1,Physical,"Contacts, SMS, Call Logs, WhatsApp, Media Files, Browser History",,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,0,0
+62,128,129,D0129,Vivo,Y21,Android,14,Oxygen Forensic Detective,16.5,Physical Bootloader/ADB,"Contacts, SMS, Call Logs, Media Files",,0,1,1,1,1,0,0,0,0,1,1,1,1,1,1,1,1,1,1,0,1,0,1,1
+63,130,131,D0131,Nokia,C20,Feature Phone,,Belkasoft X,5.1,Logical,"Contacts, SMS, Call Logs, Media Files",,0,1,1,1,1,0,0,1,1,1,0,0,1,1,1,1,1,1,1,1,1,0,0,0
+64,131,132,D0132,Oppo,F19,Android,14,MSAB XRY,10.4,Physical,"Contacts, Call Logs, WhatsApp, Media Files",,1,0,1,1,1,0,1,1,1,0,1,1,1,0,0,1,1,1,1,0,0,0,0,0
+65,133,134,D0134,Lenovo,K10,Android,13,Belkasoft X,5.1,Physical,"Contacts, Call Logs, WhatsApp, Browser History",,1,0,1,1,0,1,1,0,0,0,0,0,1,1,1,1,1,1,0,0,0,1,0,0
+66,135,136,D0136,Others,Coolpad Ultra,Android,14,Oxygen Forensic Detective,16.5,File System,"Contacts, SMS, Call Logs, Media Files, Browser History",,0,1,1,1,1,1,0,1,1,1,0,0,1,0,0,1,1,1,1,0,0,1,1,1
+67,137,138,D0138,Huawei,P30,Android,12,Belkasoft X,5.1,Advanced Logical,"Contacts, SMS, Call Logs, WhatsApp",,1,1,1,1,0,0,1,0,0,1,1,1,1,1,1,1,0,0,0,1,1,0,1,1
+68,140,141,D0141,Motorola,Moto G54,Android,13,Belkasoft X,5.1,Physical,"Contacts, SMS, WhatsApp",,1,1,0,1,0,0,1,1,1,1,0,0,0,1,1,1,1,1,0,1,1,0,1,1
+69,141,142,D0142,Nokia,105,Feature Phone,,MSAB XRY,10.4,Logical,"Contacts, SMS, Call Logs, Media Files",,0,1,1,1,1,0,0,0,0,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0
+70,142,143,D0143,Huawei,P30,Android,10,Cellebrite UFED,7.68,Physical,"Contacts, Call Logs, WhatsApp, Media Files",,1,0,1,1,1,0,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,0,0,0
+71,144,145,D0145,Samsung,SM-G530H,Android,14,Belkasoft X,5.1,File System,"Contacts, SMS, Call Logs, WhatsApp, Media Files, Browser History",,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,0,0,1,0,0
+72,146,147,D0147,Motorola,Moto G32,Android,12,Cellebrite UFED,7.68,Physical,"Contacts, SMS, Call Logs, WhatsApp",,1,1,1,1,0,0,1,1,1,1,0,0,1,1,1,1,1,1,0,1,1,0,0,0
+73,149,150,D0150,Motorola,Moto G32,Android,12,Cellebrite UFED,7.68,File System,"Contacts, SMS, Call Logs, WhatsApp, Media Files",,1,1,1,1,1,0,1,1,1,1,0,0,1,1,1,1,1,1,1,1,0,0,1,1
+74,151,152,D0152,Motorola,Moto G54,Android,13,Belkasoft X,5.1,File System,"Contacts, SMS, Call Logs, Media Files",,0,1,1,1,1,0,0,0,0,1,0,0,1,1,1,1,1,1,1,0,0,0,0,0
+75,153,154,D0154,Samsung,Galaxy S23,Android,13,Magnet AXIOM,8.2,Physical Bootloader/ADB,"Contacts, Call Logs, WhatsApp, Media Files",,1,0,1,1,1,0,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,0,0,0
+76,154,155,D0155,Samsung,Galaxy S23,Android,10,MSAB XRY,10.4,Physical,"Contacts, SMS, WhatsApp, Media Files, Browser History",,1,1,0,1,1,1,1,0,0,1,1,1,0,1,1,1,1,1,1,0,0,1,0,0
+77,156,157,D0157,Lenovo,A6000,Android,14,Cellebrite UFED,7.68,Physical,"Contacts, SMS, Call Logs, WhatsApp",,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,0,0,0
+78,158,159,D0159,Nokia,C20,Feature Phone,,Cellebrite UFED,7.68,Physical Bootloader/ADB,Contacts,,0,0,0,1,0,0,0,1,1,0,1,1,0,1,1,1,1,1,0,0,0,0,1,1
+79,161,162,D0162,Apple,iPhone 13,iOS,16,Cellebrite UFED,7.68,Advanced Logical,"Contacts, SMS, Call Logs, Media Files",,0,1,1,1,1,0,0,1,1,1,0,0,1,1,1,1,1,1,1,1,1,0,1,1
+80,163,164,D0164,Lenovo,A6000,Android,10,Magnet AXIOM,8.2,File System,"Contacts, SMS, Call Logs, WhatsApp, Media Files, Browser History",,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0
+81,165,166,D0166,Samsung,Galaxy S23,Android,10,Belkasoft X,5.1,Physical,"Contacts, SMS, Call Logs, WhatsApp, Media Files",,1,1,1,1,1,0,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,0,1,1
+82,167,168,D0168,Huawei,Nova 9,Android,11,Magnet AXIOM,8.2,Physical Bootloader/ADB,"Contacts, SMS, Call Logs, Media Files, Browser History",,0,1,1,1,1,1,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+83,170,171,D0171,Xiaomi,Mi 11,Android,14,Oxygen Forensic Detective,16.5,Advanced Logical,"Contacts, SMS, Call Logs, WhatsApp, Media Files, Browser History",,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+84,171,172,D0172,Others,Lava Blaze,Android,10,Cellebrite UFED,7.68,Physical,"Contacts, SMS, WhatsApp, Media Files",,1,1,0,1,1,0,1,0,0,1,0,0,0,1,1,1,1,1,1,1,1,0,1,1
+85,173,174,D0174,Lenovo,A6000,Android,14,Magnet AXIOM,8.2,Physical Bootloader/ADB,"Contacts, Call Logs, WhatsApp, Browser History",,1,0,1,1,0,1,1,1,1,0,1,1,1,1,1,1,1,1,0,0,0,1,0,0
+86,174,175,D0175,Nokia,105,Feature Phone,,MSAB XRY,10.4,Physical Bootloader/ADB,"Contacts, SMS, Call Logs, Media Files, Browser History",,0,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+87,178,179,D0179,Huawei,P30,Android,14,Belkasoft X,5.1,Advanced Logical,"Contacts, SMS, Call Logs, Media Files, Browser History",,0,1,1,1,1,1,0,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1
+88,180,181,D0181,Samsung,SM-G530H,Android,11,Belkasoft X,5.1,File System,"Contacts, SMS, WhatsApp, Browser History",,1,1,0,1,0,1,1,0,0,1,1,1,0,1,1,1,1,1,0,0,0,1,0,0
+89,181,182,D0182,Lenovo,A6000,Android,14,Magnet AXIOM,8.2,Physical,"Contacts, SMS, Call Logs, WhatsApp, Media Files",,1,1,1,1,1,0,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0
+90,182,183,D0183,Oppo,F19,Android,11,Oxygen Forensic Detective,16.5,Physical,"Contacts, Call Logs, Media Files",,0,0,1,1,1,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,0,1,1
+91,184,185,D0185,Huawei,P30,Android,11,Belkasoft X,5.1,Physical,"SMS, Call Logs, WhatsApp, Media Files, Browser History",,1,1,1,0,1,1,1,0,0,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1
+92,186,187,D0187,Xiaomi,Mi 11,Android,13,Oxygen Forensic Detective,16.5,File System,"Contacts, SMS, Call Logs, WhatsApp",,1,1,1,1,0,0,1,0,0,1,1,1,1,1,1,1,1,1,0,1,1,0,0,0
+93,190,191,D0191,Nokia,Asha 200,Feature Phone,,Belkasoft X,5.1,File System,"Contacts, Call Logs",,0,0,1,1,0,0,0,0,0,0,1,1,1,0,0,1,1,1,0,1,1,0,1,1
+94,192,193,D0193,Oppo,F19,Android,12,Belkasoft X,5.1,Physical Bootloader/ADB,"Contacts, SMS, Call Logs, WhatsApp, Media Files, Browser History",,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0
+95,195,196,D0196,Others,Coolpad Ultra,Android,10,Belkasoft X,5.1,Physical Bootloader/ADB,"Contacts, SMS, Call Logs, Media Files",,0,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0
+96,197,198,D0198,Oppo,Reno 8,Android,10,Oxygen Forensic Detective,16.5,Physical,"Contacts, SMS, Call Logs, WhatsApp, Media Files, Browser History",,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1
+97,199,200,D0200,Motorola,Moto G32,Android,13,Oxygen Forensic Detective,16.5,Logical,"Contacts, SMS, Call Logs, WhatsApp, Media Files, Browser History",,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0
+98,200,201,D0201,Lenovo,A6000,Android,14,MSAB XRY,10.4,File System,"Contacts, Call Logs, WhatsApp, Browser History",,1,0,1,1,0,1,1,1,1,0,1,1,1,1,1,1,1,1,0,1,1,1,0,0
+99,203,204,D0204,Motorola,Moto G32,Android,11,Belkasoft X,5.1,File System,"Contacts, SMS, Call Logs, Media Files",,0,1,1,1,1,0,0,0,0,1,1,1,1,1,1,1,1,1,1,0,0,0,1,1
+100,204,205,D0205,Others,Lava Blaze,Android,14,Belkasoft X,5.1,Physical,"Contacts, WhatsApp, Media Files, Browser History",,1,0,0,1,1,1,1,0,0,0,1,1,0,1,1,1,1,1,1,1,1,1,0,0
+101,206,207,D0207,Motorola,Moto G54,Android,12,Oxygen Forensic Detective,16.5,File System,"Contacts, Call Logs, WhatsApp",,1,0,1,1,0,0,1,1,1,0,0,0,1,1,1,1,1,1,0,1,1,0,1,1
+102,207,208,D0208,Samsung,SM-G530H,Android,13,Oxygen Forensic Detective,16.5,Physical Bootloader/ADB,"Contacts, SMS, Call Logs, WhatsApp, Media Files, Browser History",,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1
+103,209,210,D0210,Others,Realme 9,Android,14,MSAB XRY,10.4,Advanced Logical,"Contacts, SMS, Media Files, Browser History",,0,1,0,1,1,1,0,1,1,1,0,0,0,1,1,1,1,1,1,0,0,1,0,0
+104,210,211,D0211,Apple,iPhone 12,iOS,16,MSAB XRY,10.4,Physical Bootloader/ADB,"Contacts, SMS, Call Logs, WhatsApp, Media Files, Browser History",,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0
+105,212,213,D0213,Nokia,105,Feature Phone,,Magnet AXIOM,8.2,Physical,"Contacts, SMS, Call Logs, Media Files, Browser History",,0,1,1,1,1,1,0,0,0,1,1,1,1,1,1,1,1,1,1,0,0,1,0,0
+106,214,215,D0215,Nokia,Asha 200,Feature Phone,,Oxygen Forensic Detective,16.5,Advanced Logical,"Contacts, SMS, Call Logs, Media Files",,0,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0
+107,217,218,D0218,Huawei,P30,Android,10,Belkasoft X,5.1,Physical Bootloader/ADB,"Contacts, SMS, Call Logs, WhatsApp, Media Files, Browser History",,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0
+108,219,220,D0220,Nokia,Asha 200,Feature Phone,,Oxygen Forensic Detective,16.5,Physical Bootloader/ADB,"Contacts, SMS, Call Logs, Browser History",,0,1,1,1,0,1,0,0,0,1,1,1,1,1,1,1,1,1,0,1,1,1,0,0
+109,222,223,D0223,Oppo,A78,Android,10,Magnet AXIOM,8.2,Physical Bootloader/ADB,"Contacts, Call Logs, WhatsApp",,1,0,1,1,0,0,1,1,1,0,1,1,1,0,0,1,1,1,0,1,1,0,0,0
+110,223,224,D0224,Motorola,Moto G54,Android,12,MSAB XRY,10.4,Physical Bootloader/ADB,"Contacts, SMS, Call Logs, Media Files",,0,1,1,1,1,0,0,1,1,1,1,1,1,0,0,1,1,1,1,1,1,0,0,0
+111,225,226,D0226,Motorola,Moto G32,Android,10,Magnet AXIOM,8.2,Advanced Logical,"Contacts, Call Logs, WhatsApp, Media Files",,1,0,1,1,1,0,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,0,0,0
+112,227,228,D0228,Apple,iPhone 13,iOS,15,Magnet AXIOM,8.2,Advanced Logical,"Contacts, SMS, Call Logs, WhatsApp, Media Files",,1,1,1,1,1,0,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1
+113,230,231,D0231,Xiaomi,Mi 11,Android,12,Oxygen Forensic Detective,16.5,Physical,"Contacts, SMS, Call Logs, WhatsApp, Media Files",,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1
+114,231,232,D0232,Vivo,Y21,Android,10,MSAB XRY,10.4,Physical,"Contacts, Call Logs, WhatsApp, Browser History",,1,0,1,1,0,1,1,1,1,0,1,1,1,1,1,1,1,1,0,0,0,1,0,0
+115,233,234,D0234,Huawei,P30,Android,12,Oxygen Forensic Detective,16.5,Physical,"Contacts, SMS, Call Logs, WhatsApp, Media Files",,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1
+116,236,237,D0237,Motorola,Moto G32,Android,14,Cellebrite UFED,7.68,Physical,"Contacts, SMS, Call Logs, Media Files, Browser History",,0,1,1,1,1,1,0,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+117,238,239,D0239,Motorola,Moto G54,Android,10,Cellebrite UFED,7.68,Physical,"Contacts, SMS, Call Logs, Media Files, Browser History",,0,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+118,239,240,D0240,Huawei,P30,Android,12,Cellebrite UFED,7.68,Advanced Logical,"Contacts, Call Logs, WhatsApp, Browser History",,1,0,1,1,0,1,1,0,0,0,1,1,1,1,1,1,1,1,0,0,0,1,0,0
+119,241,242,D0242,Apple,iPhone 13,iOS,16,Cellebrite UFED,7.68,File System,"SMS, Call Logs, WhatsApp, Media Files, Browser History",,1,1,1,0,1,1,1,0,0,1,1,1,1,1,1,0,1,1,1,0,0,1,0,0
+120,243,244,D0244,Motorola,Moto G54,Android,11,MSAB XRY,10.4,Physical,"Contacts, SMS, Call Logs, WhatsApp, Browser History",,1,1,1,1,0,1,1,1,1,1,0,0,1,1,1,1,1,1,0,0,0,1,0,0
+121,245,246,D0246,Others,Lava Blaze,Android,14,Cellebrite UFED,7.68,Physical,"Contacts, SMS, Call Logs",,0,1,1,1,0,0,0,0,0,1,1,1,1,1,1,1,1,1,0,1,1,0,0,0
+122,247,248,D0248,Others,Lava Blaze,Android,13,MSAB XRY,10.4,Advanced Logical,"Contacts, SMS, Call Logs, Media Files, Browser History",,0,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+123,249,250,D0250,Lenovo,A6000,Android,13,Oxygen Forensic Detective,16.5,Advanced Logical,"Contacts, SMS, Call Logs, WhatsApp, Browser History",,1,1,1,1,0,1,1,1,1,1,0,0,1,1,1,1,1,1,0,1,1,1,0,0
+124,251,252,D0252,Apple,iPhone 14,iOS,17,Magnet AXIOM,8.2,Physical Bootloader/ADB,"Contacts, SMS, Call Logs, WhatsApp, Browser History",,1,1,1,1,0,1,1,0,0,1,1,1,1,1,1,1,1,1,0,0,0,1,0,0
+125,253,254,D0254,Others,Realme 9,Android,12,Belkasoft X,5.1,Advanced Logical,"Contacts, SMS, Call Logs, WhatsApp, Media Files, Browser History",,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,0,0
+126,256,257,D0257,Motorola,Moto G32,Android,11,Belkasoft X,5.1,Physical,"Contacts, SMS, Call Logs, Browser History",,0,1,1,1,0,1,0,1,1,1,1,1,1,0,0,1,1,1,0,0,0,1,1,1
+127,258,259,D0259,Nokia,105,Feature Phone,,Belkasoft X,5.1,Advanced Logical,"Contacts, SMS, Call Logs, Media Files",,0,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,0,0,1,1,1,0,1,1
+128,260,261,D0261,Apple,iPhone 12,iOS,16,Cellebrite UFED,7.68,Logical,"SMS, Call Logs, Media Files",,0,1,1,0,1,0,0,1,0,1,1,1,1,1,1,0,1,1,1,1,1,0,1,1
+129,262,263,D0263,Oppo,Reno 8,Android,11,Oxygen Forensic Detective,16.5,Logical,"Contacts, SMS, Call Logs, WhatsApp, Media Files",,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0
+130,264,265,D0265,Nokia,Asha 200,Feature Phone,,MSAB XRY,10.4,Advanced Logical,"Contacts, SMS, Call Logs, Browser History",,0,1,1,1,0,1,0,1,1,1,1,1,1,0,0,1,1,1,0,1,1,1,0,0
+131,266,267,D0267,Vivo,V27,Android,10,MSAB XRY,10.4,Logical,"Contacts, Call Logs, WhatsApp, Media Files, Browser History",,1,0,1,1,1,1,1,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,0,0
+132,268,269,D0269,Vivo,V25,Android,14,Belkasoft X,5.1,File System,"Contacts, SMS, Call Logs, Browser History",,0,1,1,1,0,1,0,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1
+133,272,273,D0273,Others,Coolpad Ultra,Android,12,Cellebrite UFED,7.68,Physical,"Contacts, WhatsApp, Media Files",,1,0,0,1,1,0,1,0,0,0,1,1,0,1,1,1,1,1,1,0,0,0,1,1
+134,273,274,D0274,Apple,iPhone 14,iOS,17,Oxygen Forensic Detective,16.5,File System,"Contacts, SMS, Call Logs, WhatsApp, Media Files, Browser History",,1,1,1,1,1,1,1,0,0,1,0,0,1,1,1,1,0,0,1,1,1,1,0,0
+135,274,275,D0275,Xiaomi,Redmi Note 12,Android,10,MSAB XRY,10.4,Logical,"Contacts, SMS, Browser History",,0,1,0,1,0,1,0,1,1,1,1,1,0,1,1,1,1,1,0,0,0,1,1,1
+136,276,277,D0277,Huawei,Nova 9,Android,14,Magnet AXIOM,8.2,Logical,"Contacts, SMS, Call Logs, WhatsApp, Media Files",,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,1,1
+137,279,280,D0280,Samsung,Galaxy S23,Android,11,Belkasoft X,5.1,Logical,"SMS, Call Logs, WhatsApp, Browser History",,1,1,1,0,0,1,1,0,0,1,1,1,1,1,1,0,1,1,0,1,1,1,0,0
+138,281,282,D0282,Vivo,V25,Android,14,MSAB XRY,10.4,File System,"Contacts, SMS, Call Logs, WhatsApp",,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,0,1,1
+139,284,285,D0285,Apple,iPhone 12,iOS,15,Belkasoft X,5.1,File System,"Contacts, SMS, Call Logs, WhatsApp, Media Files, Browser History",,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0
+140,286,287,D0287,Xiaomi,Redmi Note 12,Android,11,Oxygen Forensic Detective,16.5,Advanced Logical,"Contacts, SMS, Call Logs, Media Files, Browser History",,0,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+141,288,289,D0289,Lenovo,K10,Android,12,Magnet AXIOM,8.2,File System,"Contacts, SMS, Call Logs, Media Files, Browser History",,0,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,0
+142,290,291,D0291,Oppo,A78,Android,10,Cellebrite UFED,7.68,File System,"Contacts, SMS, Call Logs, Browser History",,0,1,1,1,0,1,0,0,0,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1
+143,292,293,D0293,Xiaomi,Mi 11,Android,12,Oxygen Forensic Detective,16.5,File System,"Contacts, SMS, Call Logs, WhatsApp, Media Files",,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,1,1
+144,293,294,D0294,Samsung,Galaxy S23,Android,12,Oxygen Forensic Detective,16.5,File System,"Contacts, Call Logs, WhatsApp",,1,0,1,1,0,0,1,1,1,0,1,1,1,1,1,1,1,1,0,1,1,0,1,1
+145,295,296,D0296,Others,Coolpad Ultra,Android,10,Magnet AXIOM,8.2,Logical,"Contacts, SMS, Call Logs, WhatsApp, Media Files, Browser History",,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,0,0
+146,296,297,D0297,Vivo,V25,Android,11,Magnet AXIOM,8.2,Physical Bootloader/ADB,"Contacts, SMS, Media Files",,0,1,0,1,1,0,0,1,1,1,1,0,0,0,0,1,1,1,1,1,1,0,0,0
+147,299,300,D0300,Samsung,Galaxy S23,Android,14,MSAB XRY,10.4,Logical,"Contacts, Call Logs, WhatsApp, Media Files",,1,0,1,1,1,0,1,0,0,0,1,1,1,1,1,1,1,1,1,1,1,0,0,0
+148,301,302,D0302,Apple,iPhone 14,iOS,17,Oxygen Forensic Detective,16.5,Physical Bootloader/ADB,"Contacts, SMS, Call Logs, WhatsApp",,1,1,1,1,0,0,1,0,0,1,0,0,1,1,1,1,0,0,0,1,1,0,0,0
+149,303,304,D0304,Xiaomi,Redmi Note 12,Android,10,Belkasoft X,5.1,Advanced Logical,"Contacts, SMS, Call Logs, WhatsApp, Media Files",,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,0,1,1
+150,305,306,D0306,Apple,iPhone 12,iOS,17,Magnet AXIOM,8.2,Advanced Logical,"Contacts, SMS, Call Logs, WhatsApp",,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,0,0,0
+151,307,308,D0308,Others,Realme 9,Android,11,MSAB XRY,10.4,Advanced Logical,"Contacts, SMS, Call Logs, WhatsApp, Browser History",,1,1,1,1,0,1,1,1,1,1,0,0,1,1,1,1,1,1,0,1,1,1,1,1
+152,308,309,D0309,Xiaomi,Mi 11,Android,11,Cellebrite UFED,7.68,Physical Bootloader/ADB,SMS,,0,1,0,0,0,0,0,0,0,1,1,1,0,1,1,0,1,1,0,1,1,0,1,1
+153,311,312,D0312,Apple,iPhone 14,iOS,17,Belkasoft X,5.1,Advanced Logical,"Contacts, SMS, Call Logs, WhatsApp, Media Files",,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0
+154,313,314,D0314,Oppo,F19,Android,13,Magnet AXIOM,8.2,File System,"Contacts, SMS, Call Logs, Media Files",,0,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,0,0,1,1,1,0,1,1
+155,315,316,D0316,Others,Coolpad Ultra,Android,13,Magnet AXIOM,8.2,Logical,"Contacts, SMS, Call Logs, WhatsApp, Media Files",,1,1,1,1,1,0,1,0,0,1,0,0,1,1,1,1,1,1,1,1,0,0,1,1
+156,317,318,D0318,Motorola,Moto G54,Android,11,Belkasoft X,5.1,Physical,"Contacts, Call Logs, WhatsApp, Media Files",,1,0,1,1,1,0,1,0,0,0,1,1,1,1,1,1,1,1,1,0,0,0,1,1
+157,318,319,D0319,Oppo,Reno 8,Android,13,Cellebrite UFED,7.68,Physical Bootloader/ADB,"Contacts, SMS, Call Logs, WhatsApp, Media Files",,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,0,0,0
+158,321,322,D0322,Vivo,V27,Android,13,Magnet AXIOM,8.2,Physical,"Contacts, SMS, Call Logs, WhatsApp, Media Files",,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1
+159,323,324,D0324,Motorola,Moto G32,Android,14,Magnet AXIOM,8.2,Logical,"Contacts, SMS, Call Logs, WhatsApp, Media Files",,1,1,1,1,1,0,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,0,0,0
+160,325,326,D0326,Huawei,Nova 9,Android,10,Cellebrite UFED,7.68,File System,"Contacts, SMS, Call Logs, Media Files, Browser History",,0,1,1,1,1,1,0,0,0,1,1,1,1,1,1,1,1,1,1,0,0,1,0,0
+161,327,328,D0328,Vivo,Y21,Android,13,Belkasoft X,5.1,Logical,"Contacts, SMS, WhatsApp, Media Files, Browser History",,1,1,0,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,0,0
+162,328,329,D0329,Samsung,Galaxy S23,Android,12,Belkasoft X,5.1,Physical,"Contacts, SMS, Call Logs, Browser History",,0,1,1,1,0,1,0,0,0,1,1,1,1,1,1,1,1,1,0,0,0,1,1,1
+163,330,331,D0331,Others,Realme 9,Android,12,Magnet AXIOM,8.2,Logical,"Contacts, SMS, Call Logs, WhatsApp, Media Files",,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1
+164,333,334,D0334,Nokia,C20,Feature Phone,,MSAB XRY,10.4,Physical Bootloader/ADB,"Contacts, Call Logs, Media Files, Browser History",,0,0,1,1,1,1,0,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+165,334,335,D0335,Xiaomi,Poco X5,Android,14,MSAB XRY,10.4,Physical,"Contacts, SMS, Call Logs, Browser History",,0,1,1,1,0,1,0,1,1,1,0,0,1,1,1,1,1,1,0,1,1,1,0,0
+166,336,337,D0337,Oppo,Reno 8,Android,12,Oxygen Forensic Detective,16.5,Logical,"Contacts, SMS, Call Logs, Media Files",,0,1,1,1,1,0,0,0,0,1,1,1,1,1,0,1,1,1,1,1,1,0,1,1
+167,339,340,D0340,Xiaomi,Poco X5,Android,11,Oxygen Forensic Detective,16.5,Logical,"Contacts, SMS, Call Logs, WhatsApp, Media Files, Browser History",,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0
+168,341,342,D0342,Nokia,Asha 200,Feature Phone,,MSAB XRY,10.4,Logical,"Contacts, SMS, Call Logs, Browser History",,0,1,1,1,0,1,0,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,0,0
+169,342,343,D0343,Oppo,F19,Android,14,Belkasoft X,5.1,Physical Bootloader/ADB,"Contacts, WhatsApp, Browser History",,1,0,0,1,0,1,1,1,1,0,1,1,0,1,1,1,1,1,0,0,0,1,0,0
+170,343,344,D0344,Vivo,V27,Android,13,Cellebrite UFED,7.68,File System,"Contacts, SMS, WhatsApp, Media Files, Browser History",,1,1,0,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1
+171,347,348,D0348,Apple,iPhone 13,iOS,16,MSAB XRY,10.4,Physical Bootloader/ADB,"Contacts, SMS, Call Logs, WhatsApp, Browser History",,1,1,1,1,0,1,1,1,1,1,0,0,1,1,1,1,1,1,0,1,1,1,1,1
+172,349,350,D0350,Xiaomi,Redmi Note 12,Android,14,Cellebrite UFED,7.68,Logical,"Contacts, SMS, Call Logs, Media Files, Browser History",,0,1,1,1,1,1,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0
+173,350,351,D0351,Xiaomi,Redmi Note 12,Android,12,Magnet AXIOM,8.2,Physical,"Contacts, Call Logs, Media Files, Browser History",,0,0,1,1,1,1,0,0,0,0,1,1,1,1,1,1,1,1,1,0,0,1,1,1
+174,352,353,D0353,Huawei,Nova 9,Android,13,Oxygen Forensic Detective,16.5,Advanced Logical,"Contacts, SMS, Call Logs, Media Files",,0,1,1,1,1,0,0,1,1,1,0,0,1,1,1,1,1,1,1,1,1,0,1,1
+175,354,355,D0355,Xiaomi,Mi 11,Android,13,Cellebrite UFED,7.68,Advanced Logical,"Contacts, SMS, Call Logs, WhatsApp",,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0
+176,356,357,D0357,Motorola,Moto G54,Android,14,Belkasoft X,5.1,Logical,"Contacts, SMS, WhatsApp, Media Files, Browser History",,1,1,0,1,1,1,1,0,0,1,0,0,0,1,1,1,0,0,1,1,1,1,0,0
+177,357,358,D0358,Huawei,Nova 9,Android,11,Magnet AXIOM,8.2,Physical,"Contacts, SMS, Call Logs, WhatsApp, Media Files, Browser History",,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,0,0,1,0,0,1,0,0
+178,359,360,D0360,Lenovo,K10,Android,10,Belkasoft X,5.1,Physical Bootloader/ADB,"Contacts, SMS, WhatsApp, Media Files, Browser History",,1,1,0,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,0,0
+179,361,362,D0362,Vivo,V27,Android,12,Magnet AXIOM,8.2,Physical,"Contacts, SMS, Call Logs, Media Files",,0,1,1,1,1,0,0,1,1,1,0,0,1,1,1,1,1,1,1,1,1,0,1,1
+180,365,366,D0366,Xiaomi,Redmi Note 12,Android,13,Belkasoft X,5.1,Physical Bootloader/ADB,"Contacts, SMS, Call Logs",,0,1,1,1,0,0,0,1,1,1,0,0,1,0,0,1,1,1,0,1,1,0,0,0
+181,367,368,D0368,Lenovo,A6000,Android,14,MSAB XRY,10.4,File System,"Contacts, SMS, Call Logs, Media Files",,0,1,1,1,1,0,0,0,0,1,0,0,1,1,1,1,1,1,1,0,0,0,1,1
+182,369,370,D0370,Lenovo,A6000,Android,13,Cellebrite UFED,7.68,Physical Bootloader/ADB,"Contacts, SMS, Call Logs, WhatsApp, Media Files",,1,1,1,1,1,0,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,0,0,0
+183,371,372,D0372,Lenovo,K10,Android,14,Oxygen Forensic Detective,16.5,File System,"Contacts, SMS, Call Logs, Media Files, Browser History",,0,1,1,1,1,1,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0
+184,372,373,D0373,Motorola,Moto G32,Android,14,Cellebrite UFED,7.68,Logical,"Contacts, Call Logs, Media Files, Browser History",,0,0,1,1,1,1,0,0,0,0,1,1,1,0,0,1,0,0,1,1,1,1,0,0
+185,374,375,D0375,Apple,iPhone 13,iOS,15,Belkasoft X,5.1,Logical,"Contacts, SMS, Call Logs, WhatsApp, Media Files, Browser History",,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,0,0
+186,376,377,D0377,Oppo,F19,Android,14,Belkasoft X,5.1,Physical,"Contacts, SMS, Call Logs, Media Files",,0,1,1,1,1,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1
+187,378,379,D0379,Others,Realme 9,Android,13,Belkasoft X,5.1,Logical,"Contacts, SMS, Call Logs, WhatsApp, Browser History",,1,1,1,1,0,1,1,0,0,1,0,0,1,1,1,1,1,1,0,1,1,1,1,1
+188,380,381,D0381,Lenovo,A6000,Android,13,Cellebrite UFED,7.68,Physical,"Contacts, SMS, Call Logs, Media Files",,0,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,1,1
+189,382,383,D0383,Motorola,Moto G54,Android,11,Cellebrite UFED,7.68,Advanced Logical,"Contacts, SMS, Call Logs, WhatsApp, Media Files, Browser History",,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0
+190,384,385,D0385,Others,Coolpad Ultra,Android,14,Cellebrite UFED,7.68,Logical,"Contacts, SMS, Call Logs, Media Files, Browser History",,0,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0
+191,386,387,D0387,Xiaomi,Mi 11,Android,12,Cellebrite UFED,7.68,Physical Bootloader/ADB,"Contacts, SMS, Call Logs, WhatsApp, Media Files",,1,1,1,1,1,0,1,0,1,1,0,0,1,0,0,1,1,1,1,1,1,0,1,1
+192,388,389,D0389,Vivo,V27,Android,11,Belkasoft X,5.1,Logical,"Contacts, WhatsApp, Media Files, Browser History",,1,0,0,1,1,1,1,1,1,0,1,1,0,1,1,1,1,1,1,0,0,1,1,1
+193,389,390,D0390,Apple,iPhone 14,iOS,15,MSAB XRY,10.4,Physical Bootloader/ADB,"Contacts, SMS, Call Logs, WhatsApp, Media Files",,1,1,1,1,1,0,1,0,0,1,1,1,1,1,0,1,1,1,1,0,0,0,0,0
+194,391,392,D0392,Motorola,Moto G54,Android,10,Magnet AXIOM,8.2,File System,"Contacts, SMS, Call Logs, WhatsApp, Media Files",,1,1,1,1,1,0,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0
+195,393,394,D0394,Oppo,A78,Android,14,MSAB XRY,10.4,Physical,"Contacts, SMS, Call Logs",,0,1,1,1,0,0,0,0,0,1,0,0,1,1,1,1,1,1,0,1,1,0,1,1
+196,395,396,D0396,Nokia,Asha 200,Feature Phone,,MSAB XRY,10.4,Physical Bootloader/ADB,"Contacts, SMS, Call Logs, Media Files, Browser History",,0,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1
+197,397,398,D0398,Xiaomi,Poco X5,Android,13,Magnet AXIOM,8.2,Logical,"Contacts, SMS, Call Logs, WhatsApp, Media Files, Browser History",,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+198,399,400,D0400,Oppo,Reno 8,Android,12,Belkasoft X,5.1,Physical Bootloader/ADB,"Contacts, SMS, Call Logs, WhatsApp, Browser History",,1,1,1,1,0,1,1,0,0,1,0,0,1,1,1,1,1,1,0,1,1,1,1,1
+199,401,402,D0402,Xiaomi,Mi 11,Android,11,MSAB XRY,10.4,Logical,"Contacts, SMS, Call Logs, WhatsApp, Media Files",,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0
+200,403,404,D0404,Xiaomi,Poco X5,Android,14,MSAB XRY,10.4,File System,"Contacts, SMS, Call Logs, WhatsApp, Media Files, Browser History",,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0
+201,407,408,D0408,Others,Realme 9,Android,10,Belkasoft X,5.1,Physical Bootloader/ADB,"Contacts, SMS, Call Logs, Media Files, Browser History",,0,1,1,1,1,1,0,1,1,1,1,1,1,0,0,1,1,0,1,1,1,1,1,1
+202,409,410,D0410,Others,Coolpad Ultra,Android,13,MSAB XRY,10.4,Physical,"Contacts, Call Logs, WhatsApp, Browser History",,1,0,1,1,0,1,1,0,0,0,1,1,1,1,1,1,1,1,0,0,0,1,1,1
+203,411,412,D0412,Xiaomi,Mi 11,Android,14,Magnet AXIOM,8.2,Physical,"Contacts, SMS, Call Logs, WhatsApp, Media Files",,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0
+204,414,415,D0415,Samsung,Galaxy S23,Android,13,Cellebrite UFED,7.68,Logical,"Contacts, SMS, Call Logs, WhatsApp, Media Files, Browser History",,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0
+205,417,418,D0418,Samsung,Galaxy A54,Android,11,Cellebrite UFED,7.68,File System,"Contacts, SMS, Call Logs, Media Files, Browser History",,0,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1
+206,420,421,D0421,Apple,iPhone 12,iOS,16,Belkasoft X,5.1,Physical Bootloader/ADB,"Contacts, SMS, Call Logs, WhatsApp, Media Files, Browser History",,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0
+207,422,423,D0423,Nokia,Asha 200,Feature Phone,,Magnet AXIOM,8.2,Physical Bootloader/ADB,"Contacts, SMS, Call Logs, Media Files, Browser History",,0,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+208,426,427,D0427,Others,Lava Blaze,Android,13,MSAB XRY,10.4,Physical Bootloader/ADB,"Contacts, SMS, Call Logs, WhatsApp, Browser History",,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,0,0,0,1,1,1,1,1
+209,429,430,D0430,Others,Lava Blaze,Android,12,MSAB XRY,10.4,Advanced Logical,"Contacts, SMS, Call Logs, WhatsApp, Media Files, Browser History",,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,0,0,1,0,0
+210,432,433,D0433,Oppo,F19,Android,14,Belkasoft X,5.1,Logical,"Contacts, SMS, Call Logs, Media Files",,0,1,1,1,1,0,0,0,0,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0
+211,435,436,D0436,Apple,iPhone 14,iOS,17,Magnet AXIOM,8.2,Advanced Logical,"Contacts, SMS, Call Logs, Media Files",,0,1,1,1,1,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1
+212,437,438,D0438,Huawei,Nova 9,Android,14,Belkasoft X,5.1,Advanced Logical,"Contacts, SMS, Call Logs, Media Files",,0,1,1,1,1,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0
+213,442,443,D0443,Lenovo,A6000,Android,12,Oxygen Forensic Detective,16.5,Physical Bootloader/ADB,"Contacts, SMS, Call Logs, WhatsApp, Media Files, Browser History",,1,1,1,1,1,1,1,1,1,1,0,0,1,0,0,1,1,1,1,0,0,1,0,0
+214,444,445,D0445,Oppo,Reno 8,Android,11,Cellebrite UFED,7.68,Physical Bootloader/ADB,"Contacts, SMS, Call Logs, WhatsApp, Media Files",,1,1,1,1,1,0,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0
+215,583,584,D0584,Vivo,V27,Android,12,Oxygen Forensic Detective,16.5,Physical Bootloader/ADB,"Contacts, Browser History",,0,0,0,1,0,1,0,1,1,0,1,1,0,1,1,1,1,1,0,1,1,1,0,1
+216,588,589,D0589,Apple,iPhone 12,iOS,16,Cellebrite UFED,7.68,Physical Bootloader/ADB,"Call Logs, WhatsApp, Media Files",,1,0,1,0,1,0,1,0,0,0,1,1,1,1,1,0,1,1,1,1,1,0,1,1
+217,734,735,D0735,Nokia,Asha 200,Feature Phone,,MSAB XRY,10.4,Advanced Logical,"Call Logs, Media Files",,0,0,1,0,1,0,0,1,1,0,1,1,1,0,0,0,1,1,1,0,0,0,1,1
+218,880,881,D0881,Others,Lava Blaze,Android,11,Magnet AXIOM,8.2,Logical,"Call Logs, WhatsApp, Browser History",,1,0,1,0,0,1,1,0,0,0,1,1,1,1,1,0,1,1,0,0,0,1,0,0
+219,897,898,D0898,Others,Lava Blaze,Android,12,Cellebrite UFED,7.68,Physical,"Call Logs, Browser History",,0,0,1,0,0,1,0,0,0,0,1,1,1,1,1,0,1,1,0,0,0,1,1,1
+220,993,994,D0994,Vivo,V25,Android,14,Magnet AXIOM,8.2,File System,"Contacts, WhatsApp, Browser History",,1,0,0,1,0,1,1,1,0,0,1,1,0,1,1,1,1,1,0,1,1,1,0,0
+221,1054,1055,D1055,Oppo,F19,Android,13,Magnet AXIOM,8.2,File System,"Call Logs, Browser History",,0,0,1,0,0,1,0,1,1,0,0,0,1,1,1,0,1,1,0,1,1,1,1,1
+222,1094,1095,D1095,Nokia,Asha 200,Feature Phone,,Belkasoft X,5.1,Physical,Contacts,,0,0,0,1,0,0,0,1,1,0,0,0,0,1,1,1,1,1,0,1,1,0,0,0
+223,1119,1120,D1120,Apple,iPhone 14,iOS,17,Oxygen Forensic Detective,16.5,File System,"Call Logs, Browser History",,0,0,1,0,0,1,0,0,0,0,0,0,1,0,1,0,1,1,0,1,1,1,1,1
+224,1149,1150,D1150,Xiaomi,Mi 11,Android,14,Cellebrite UFED,7.68,Physical Bootloader/ADB,"Contacts, WhatsApp, Browser History",,1,0,0,1,0,1,1,1,1,0,1,1,0,1,1,1,1,1,0,0,0,1,1,1
+225,1257,1258,D1258,Lenovo,K10,Android,14,Magnet AXIOM,8.2,Logical,"Call Logs, Browser History",,0,0,1,0,0,1,0,0,0,0,1,1,1,1,1,0,1,1,0,1,1,1,1,1
+226,1285,1286,D1286,Nokia,Asha 200,Feature Phone,,Belkasoft X,5.1,Physical Bootloader/ADB,Contacts,,0,0,0,1,0,0,0,0,0,0,1,1,0,1,1,1,1,1,0,1,1,0,0,0

@@ -1,0 +1,11 @@
+# Placeholder - running ForensicTAB_DBO.ipynb overwrites this file with the exact versions used
+tensorflow
+numpy
+pandas
+scikit-learn
+scikit-multilearn
+iterative-stratification
+matplotlib
+seaborn
+openpyxl
+PyYAML
